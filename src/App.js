@@ -4,8 +4,8 @@ import argoStore from './argostore';
 import Wrapper from './wrapperComponent/WrapperComponent';
 import AboutComp from './AboutPageComponent/AboutPageContainer';
 import ServiceComp from './ServicePageComponent/ServicePageContainer';
-import FeatureContainer from './FeatureComponent/FeatureContainer';
-import ContactUs from './ContactComponent/ContactContainer';
+import FeatureComp from './FeatureComponent/FeatureContainer';
+import ContactComp from './ContactComponent/ContactContainer';
 import HomeScreen from './HomePageComponent/HomePageContainer';
 import {
   BrowserRouter as Router,
@@ -30,17 +30,22 @@ function App() {
           </Route>
           <Route path="/feature">
             <Wrapper>
-              <FeatureContainer />
+              <FeatureComp />
             </Wrapper>
           </Route>
           <Route path="/contact">
             <Wrapper>
-              <ContactUs />
+              <ContactComp />
+            </Wrapper>
+          </Route>
+          <Route path="/home">
+            <Wrapper>
+              <HomeScreen />
             </Wrapper>
           </Route>
           <Route path="/">
-            <Wrapper>
-              <HomeScreen />
+          <Wrapper>
+              <AboutComp />
             </Wrapper>
           </Route>
         </Switch>

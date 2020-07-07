@@ -5,7 +5,7 @@ import FarmingManagement from './FarmingManagement';
 import EComManage from './E-commercePlatform';
 import PartnersList from '../HomePageComponent/PartnersList';
 
-const ServicePageContainer= () => 
+const ServicePageContainer = () => 
     <div>
         <SpecialFeature />
         <section className="section--gutter section--base-bg">

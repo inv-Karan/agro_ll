@@ -7,10 +7,12 @@ import CompanyFeatures from './CompanyFeatures';
 import Advertisement from './Advertisement';
 import CompanyServices from './CompanyServices';
 import PartnersList from './PartnersList';
+import Counter from '../AboutPageComponent/Counter';
+import Startscreen from './StartScreen';
 
 const HomePageContainer = () => 
 <div>
-    <StartScreen />
+    <Startscreen />
     <FeatureHeading />
     <AboutCompany />
     <SpecialFeature />

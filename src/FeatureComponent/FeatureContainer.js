@@ -7,7 +7,7 @@ const FeatureContainer = () =>
 <div>
     <EcoFeature/>
     <FeatureList/>
-    <section class="section--gutter section--gray-bg">
+    <section className="section--gutter section--gray-bg">
         <Counter />
     </section>
 </div>
